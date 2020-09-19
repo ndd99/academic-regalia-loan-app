@@ -1,20 +1,20 @@
 # academic-regalia-loan-app
 
-##Team Members
+## Team Members
 * Nick D'Agostino
 * Evan Mitchell
 * Collin Stiner
 * Brevin Wittmer
-##Client Partner Information
-###Company:
+## Client Partner Information
+### Company:
 
 
-###People:
+### People:
 
-##Links
+## Links
 * [Project description](/Project%20Description.md)
 * [Team meeting minutes](/Meeting%20Minutes/ClientPartner)
 * [Mentor meeting minutes](/Meeting%20Minutes/Mentor)
 * [Client partner meeting minutes](/Meeting%20Minutes/Team)
 
-##Code Repositories
+## Code Repositories
