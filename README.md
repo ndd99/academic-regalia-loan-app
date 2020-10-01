@@ -17,4 +17,7 @@
 * [Mentor meeting minutes](/Meeting%20Minutes/Mentor)
 * [Client partner meeting minutes](/Meeting%20Minutes/Team)
 
+
 ## Code Repositories
+
+* [Project Repository](https://github.com/BallStateCBER/regalia-share)
