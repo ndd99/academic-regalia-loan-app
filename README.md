@@ -16,6 +16,7 @@
 * [Team meeting minutes](/Meeting%20Minutes/ClientPartner)
 * [Mentor meeting minutes](/Meeting%20Minutes/Mentor)
 * [Client partner meeting minutes](/Meeting%20Minutes/Team)
+* [First Iteration Features To-do List] (https://github.com/ndd99/academic-regalia-loan-app/projects/1)
 
 
 ## Code Repositories
