@@ -22,4 +22,8 @@ We will use this to keep track of the application's data and this was a client p
 
 ### PHP Storm ###  
 https://www.jetbrains.com/phpstorm/  
-This IDE supports the main framework we will be using and supports all the tools we need to develop.
+This IDE supports the main framework we will be using and supports all the tools we need to develop.  
+
+### GitHub ###  
+https://github.com/  
+We will use this to host repository with all of our code.
