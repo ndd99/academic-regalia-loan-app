@@ -1,4 +1,4 @@
-# TeckStack #  
+# TechStack #  
 
 ### PHP ###  
 https://www.php.net/  
