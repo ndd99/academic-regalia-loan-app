@@ -32,5 +32,6 @@ $ composer update
     * user:jdoe1@bsu.edu password: password foo, normal user
     * user jperson1@bsu.edu password foo, admin
 * Once logged in all pages will be available.
-
+### Credit
+* Format based off of https://github.com/hergin/BusShuttleMainRepository/blob/master/Manuals/NewDevelopmentManual.md by H. Ergin
 
