@@ -28,11 +28,25 @@
 $ composer update
 ```
 ## Testing the Development Environment
-* 2 Users are included in the sql 
-    * user:jdoe1@bsu.edu password: password foo, normal user
-    * user jperson1@bsu.edu password foo, admin
-* Navigating to the register page will also allow you to create your own user if you do not want to use one of the included users.
-* Once logged in all pages will be available.
+* Within PHPStrom, press file and click on settings ![openFileSettings](DevImages/openFileSettings.png)
+* On the left pane, click the tab that says languages and frameworks
+* Click on PHP ![langugePGPCLI](DevImages/langugePHPCLI.png)
+* On the right pane, the PHP langauge level doesn't matter, what you need to click on is the button with three dots
+* On top of the left pane, click the plus button and select 'Local'
+* This window should have appeared ![beforePHPexe](DevImages/beforePHPexe.png)
+* You can name the interpreter however you like
+* The PHP executable is located within the XAMPP folder system, browse to it and select it and the screen should now look like this ![afterPHPexe](DevImages/afterPHPexe.png)
+* Click Apply and then click OK
+* Back on the PHP page of the languages and frameworks you should be able to see that the Interpreter we just created should be there, click Apply if the button is not greyed out
+* Now that the interpreter is set up, we have to set up PHPUnit which is autoloaded with Composer
+* On the left pane, you should click on down arrow next to PHP if not already, and select Testing Frameworks
+* Because PHPUnit is autoloaded, we must make PHPStorm recognize that
+* On the rightmost pane, there are two selections up at the top, click the Path to phpunit.phar file, and then click back to the Use Composer Autoloader
+* This should trigger the recognition of PHPUnit ![pHPUnit](DevImages/pHPUnit.png)
+* Click Apply and OK
+* Once back in the project folder, you are able to right click on the tests folder and an option to Run 'tests (PHPUnit)' is available ![runTests](DevImages/runTests.png)
+* The tests should run
+
+
 ### Credit
 * Format based off of https://github.com/hergin/BusShuttleMainRepository/blob/master/Manuals/NewDevelopmentManual.md by H. Ergin
-
