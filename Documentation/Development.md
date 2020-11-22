@@ -1,4 +1,4 @@
-# Depvelopment
+# Development
 ## Apache Server
 * Install XAMPP(7.4.12) https://www.apachefriends.org/index.html
 * Run the Apache and mysql by running xampp-control.exe (or corresponding executable if you are in MAC).
@@ -28,14 +28,14 @@
 $ composer update
 ```
 ## Testing the Development Environment
-* Within PHPStrom, press file and click on settings ![openFileSettings](DevImages/openFileSettings.png)
+* Within PHPStorm, press file and click on settings ![openFileSettings](DevImages/openFileSettings.png)
 * On the left pane, click the tab that says languages and frameworks
-* Click on PHP ![langugePGPCLI](DevImages/langugePHPCLI.png)
-* On the right pane, the PHP langauge level doesn't matter, what you need to click on is the button with three dots
+* Click on PHP ![languagePHPCLI](DevImages/languagePHPCLI.png)
+* On the right pane, the PHP language level doesn't matter, what you need to click on is the button with three dots
 * On top of the left pane, click the plus button and select 'Local'
 * This window should have appeared ![beforePHPexe](DevImages/beforePHPexe.png)
 * You can name the interpreter however you like
-* The PHP executable is located within the XAMPP folder system, browse to it and select it and the screen should now look like this ![afterPHPexe](DevImages/afterPHPexe.png)
+* The PHP executable is located within the XAMPP folder system, browse to it and select it, and the screen should now look like this ![afterPHPexe](DevImages/afterPHPexe.png)
 * Click Apply and then click OK
 * Back on the PHP page of the languages and frameworks you should be able to see that the Interpreter we just created should be there, click Apply if the button is not greyed out
 * Now that the interpreter is set up, we have to set up PHPUnit which is autoloaded with Composer
@@ -44,7 +44,7 @@ $ composer update
 * On the rightmost pane, there are two selections up at the top, click the Path to phpunit.phar file, and then click back to the Use Composer Autoloader
 * This should trigger the recognition of PHPUnit ![pHPUnit](DevImages/pHPUnit.png)
 * Click Apply and OK
-* Once back in the project folder, you are able to right click on the tests folder and an option to Run 'tests (PHPUnit)' is available ![runTests](DevImages/runTests.png)
+* Once back in the project folder, you are able to right click on the tests folder, and an option to Run 'tests (PHPUnit)' is available ![runTests](DevImages/runTests.png)
 * The tests should run
 
 
