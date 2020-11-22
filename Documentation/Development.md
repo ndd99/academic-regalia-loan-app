@@ -1,4 +1,4 @@
-# Deployment
+# Depvelopment
 ## Apache Server
 * Install XAMPP(7.4.12) https://www.apachefriends.org/index.html
 * Run the Apache and mysql by running xampp-control.exe (or corresponding executable if you are in MAC).
