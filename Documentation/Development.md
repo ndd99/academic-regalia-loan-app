@@ -31,6 +31,7 @@ $ composer update
 * 2 Users are included in the sql 
     * user:jdoe1@bsu.edu password: password foo, normal user
     * user jperson1@bsu.edu password foo, admin
+* Navigating to the register page will also allow you to create your own user if you do not want to use one of the included users.
 * Once logged in all pages will be available.
 ### Credit
 * Format based off of https://github.com/hergin/BusShuttleMainRepository/blob/master/Manuals/NewDevelopmentManual.md by H. Ergin
