@@ -76,6 +76,33 @@ Navigate to the XAMPP control panel and select start or stop for the Apache Webs
 
 ### How to Troubleshoot the application:  
 * Navigate to where the application is located in ```C:\XAMPP\htdocs\regalia\regalia-loan-app-code``` and run  
- ```composer update```  
- 
+ ```
+ composer update
+ ```  
+### Where to find source of errors:  
+* Navigate to ```C:\XAMPP\htdocs\regalia\regalia-loan-app-code\config\app.php```  
+ * Define this logger:  
+ ```
+ use Cake\Log\Log;
+
+// Short classname
+Log::config('debug', [
+    'className' => 'File',
+    'path' => LOGS,
+    'levels' => ['notice', 'info', 'debug'],
+    'file' => 'debug',
+]);
+
+// Fully namespaced name.
+Log::config('error', [
+    'className' => 'Cake\Log\Engine\FileLog',
+    'path' => LOGS,
+    'levels' => ['warning', 'error', 'critical', 'alert', 'emergency'],
+    'file' => 'error',
+]);
+```  
+### Most Vulnerable Components:  
+* Listing items with lots of notes will break the application.  
+* Trying to delete a reservation while it is pending will create an error.
+
 
