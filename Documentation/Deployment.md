@@ -46,8 +46,7 @@ eb-cake zip ../cake-default.zip -r * .[^.]* -x "vendor/*"
  * Choose Apply.
 
 * CakePHP's database configuration is in a file named app.php in the config folder in your project code. Open this file and add some code that reads the environment variables from ```$_SERVER``` and assigns them to local variables. Insert the highlighted lines in the below example after the first line ```(<?php)```:  
- * ```Example ~/Eb-cake/config/app.php```  
-  * 
+ * ```Example ~/Eb-cake/config/app.php```   
   ```
    <?php
 if (!defined('RDS_HOSTNAME')) {
@@ -59,6 +58,24 @@ if (!defined('RDS_HOSTNAME')) {
 return [
 ...
  ```
+ * The database connection is configured further down in app.php. Find the following section and modify the default datasources configuration with the name of the driver that matches your database engine (Mysql, Sqlserver, or Postgres), and set the host, username, password and database variables to read the corresponding values from Elastic Beanstalk.   
+### To update your Elastik Beanstalk environment:
+ 1. Create a new source bundle:
+  ```
+  ~/eb-cake$ zip ../cake-v2-rds.zip -r * .[^.]* -x "vendor/*"
+  ```  
+ 2. Open the Elastic Beanstalk console, and in the Regions list, select your AWS Region.  
+ 3. In the navigation pane, choose Environments, and then choose the name of your environment from the list.  
+ 4. Choose Upload and Deploy.  
+ 5. Choose Browse and upload cake-v2-rds.zip.  
+ 6. Choose Deploy. 
  
+### Starting and Stopping the Webserver:
+  
+Navigate to the XAMPP control panel and select start or stop for the Apache Webserver or MySQL.  
 
+### How to Troubleshoot the application:  
+* Navigate to where the application is located in ```C:\XAMPP\htdocs\regalia\regalia-loan-app-code``` and run  
+ ```composer update```  
+ 
 
