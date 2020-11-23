@@ -47,7 +47,8 @@ eb-cake zip ../cake-default.zip -r * .[^.]* -x "vendor/*"
 
 * CakePHP's database configuration is in a file named app.php in the config folder in your project code. Open this file and add some code that reads the environment variables from ```$_SERVER``` and assigns them to local variables. Insert the highlighted lines in the below example after the first line ```(<?php)```:  
  * ```Example ~/Eb-cake/config/app.php```  
-  * ```
+  * 
+  ```
    <?php
 if (!defined('RDS_HOSTNAME')) {
   define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
@@ -57,7 +58,7 @@ if (!defined('RDS_HOSTNAME')) {
 }
 return [
 ...
-```
+ ```
  
 
 
