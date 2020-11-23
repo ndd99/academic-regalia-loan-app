@@ -21,4 +21,4 @@
 
 ## Code Repositories
 
-* [Project Repository](https://github.com/BallStateCBER/regalia-share)
+* [Project Repository](https://github.com/etmitchell2022/regalia-loan-app-code)
