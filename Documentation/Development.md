@@ -1,4 +1,39 @@
 # Development
+
+## Required Technologies
+* PHPStorm : https://www.jetbrains.com/phpstorm/
+* XAMPP : https://www.apachefriends.org/index.html
+
+## Quick Explanation over File Structure
+* config/*
+    * app.default.php
+        * This is the main file that has a lot of important things within such as
+            * The database connections
+            * The Encryption key, known as Salt
+            * The Mailer connections
+            * How the Cache functions
+    * requirements.php
+        * This is the file that contains the messages that display when a requirement is not met
+    * routes.php
+        * This is the file that houses the routes within the application while it is runnign
+* src/*
+    * Controller/*
+        * This folder is where all the controllers are located
+    * Mailer/*
+        * This is where the different Mailer triggers reside
+    * Model/*
+        * Entity/*
+            * This is where each individual entity is
+        * Table/*
+            * This is where the local tables can be found
+            * Queries are preformed through tables
+    * Template/*
+        * This is each and every page is located
+        * Element/*
+            * This is where abstracted and repeated page elements are
+* tests/*
+    * This is where all of the tests are located
+
 ## Apache Server
 * Install XAMPP(7.4.12) https://www.apachefriends.org/index.html
 * Run the Apache and mysql by running xampp-control.exe (or corresponding executable if you are in MAC).
