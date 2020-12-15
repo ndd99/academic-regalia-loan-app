@@ -102,7 +102,8 @@ Log::config('error', [
 ]);
 ```  
 ### Most Vulnerable Components:  
-* Listing items with lots of notes will break the application.  
+* Listing items with lots of notes will break the dashboard. 
 * Trying to delete a reservation while it is pending will create an error.
+* With our migration to cakePHP 4, password hashing no longer works at the moment.
 
 
