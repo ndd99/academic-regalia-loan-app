@@ -1,4 +1,4 @@
-## Depoloying the Regalia-Share Application  
+## Deploying the Regalia-Share Application  
 
 ### Prerequisites  
 What needs to be installed before starting:  
