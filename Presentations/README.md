@@ -2,7 +2,7 @@ Any presentation you made will be put here right after the presentation. The fol
 
 * [Design Presentation](/Presentations/Regalia%20Share%20Design%20Day.pdf)
 * [First Iteration Presentation](Iteration%201.pdf)
-* Second Iteration Presentation
+* [Second Iteration Presentation](Iteration%202.pdf)
 * Third Iteration Presentation
 * Fourth Iteration Presentation
 * Fifth Iteration Presentation
