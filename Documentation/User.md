@@ -9,5 +9,9 @@ Select the Dashboard tab in the nav bar and from there select My Listings option
 # Contact an Admin
 Select the Contact tab in the nav bar to see a form that can be filled out and sent to an admin. ![Contact](UserImages/userImg/contact.PNG)
 # Check Reservations
-Select the Dashboard tab in the nav bar and from there select My Reservations option. From here you will see the status of your reservations.![Reservation](UserImages/userImg/myReservations.PNG) You can click on an of them to see more details on the item and reservation.
- 
+Select the Dashboard tab in the nav bar and select the My Reservations option. From here you will see the status of your reservations.![Reservation](UserImages/userImg/myReservations.PNG) You can click on an of them to see more details on the item and reservation.
+# Creating a Messaging
+After reserving an item select the Dashboard tab in the nav bar, then select the View all reservations button. From there select the view button next to the items whose owner you wish to contact. From there select the message button, and you will be brought to a page that contains a text box where you can send a message to the owner.
+# Replying to a Message
+Select the Dashboard Tab in the nav bar and then select view all messages. From there you can select the message you wish to reply to by clicking the view option.![MessageReply](UserImages/userImg/MessageReply.png) From there you will be taken to a page that has the message sent to you as well as a text box to type your reply. 
+
