@@ -1,4 +1,4 @@
-## Depoloying the Regalia-Share Application  
+## Deploying the Regalia-Share Application  
 
 ### Prerequisites  
 What needs to be installed before starting:  
@@ -102,7 +102,7 @@ Log::config('error', [
 ]);
 ```  
 ### Most Vulnerable Components:  
-* Listing items with lots of notes will break the application.  
-* Trying to delete a reservation while it is pending will create an error.
+* A listing with lots of notes can break the view item page.
+* The messaging system allows for the user to message their own account which should not happen and will be fixed in later iterations.
 
 
