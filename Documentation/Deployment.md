@@ -102,7 +102,7 @@ Log::config('error', [
 ]);
 ```  
 ### Most Vulnerable Components:  
-* Listing items with lots of notes will break the dashboard. 
-* With our migration to cakePHP 4, password hashing no longer works at the moment.
+* A listing with lots of notes can break the view item page.
+* The messaging system allows for the user to message their own account which should not happen and will be fixed in later iterations.
 
 
