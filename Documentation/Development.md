@@ -178,7 +178,7 @@ $ composer update
 * Click the Quality Tools option
 * Within the right pane, click on the PHP_Codesniffer option
 * Click the 3 dots next to local
-![codeSnifferSetup](DevImages/codeSnifferSetUp.png)
+![codeSnifferSetup](DevImages/codeSnifferSetup.png)
 * You will need to file in both location fields to lead to each item, they are located under Vender, and should match the image below
 ![codeSnifferPaths](DevImages/codeSnifferPaths.png)
 * To make sure they work click the Verify button
