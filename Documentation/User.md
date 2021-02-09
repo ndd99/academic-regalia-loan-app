@@ -5,7 +5,7 @@ The landing page of the website will be a Sign In page where you can enter the e
 # Reserve an Item
 Select the View Items tab in the nav bar to see all available items. You can select between capes robes and hoods here. You can filter between different types of products as well as the dates available.![ViewItems](UserImages/browseItems.PNG) Once you find an item you wish to reserve, click the view item button. In this view you can get a better look at the item and its details.![Item](UserImages/userImg/viewItem.PNG) If you decide this is the item you want to reserve click the reserve item button.
 # List an Item
-Select the Dashboard tab in the nav bar and from there select My Listings option.![Dashboard](UserImages/userImg/Dashboard.PNG) ![MyListings](UserImages/userImg/myListings.PNG) Then click the List a new Item button. Here you can enter any information needed as well as upload a picture if desired.![NewListing](UserImages/userImg/listitem.png)
+Select the Dashboard tab in the nav bar and from there select My Listings option.![Dashboard](UserImages/dash.PNG) ![MyListings](UserImages/userImg/myListings.PNG) Then click the List a new Item button. Here you can enter any information needed as well as upload a picture if desired.![NewListing](UserImages/userImg/listitem.png)
 # Contact an Admin
 Select the Contact tab in the nav bar to see a form that can be filled out and sent to an admin. ![Contact](UserImages/userImg/contact.PNG)
 # Check Reservations
