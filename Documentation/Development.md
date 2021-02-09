@@ -69,6 +69,7 @@
  ```console 
 $ composer update
 ```
+* In config/app_local.php, change the host name on line 259 to `regalia-db`. This will allow you access the MySQL server.
 
 ## Quick Explanation over File Structure
 * config/*
