@@ -30,7 +30,7 @@
 
 ## Access Application
 * You can access the application from `localhost:80`.
-* Once you are here, you can login with `jodoe@bsu.edu` as the email and `foo` as the password.
+* Once you are here, you can login with `jodoe@bsu.edu` as the email and `1234` as the password.
 * You can access phpMyAdmin from the address `localhost:8181`.
 
 ***
