@@ -62,14 +62,15 @@
 * Browse to the C:/xampp/htdocs folder
 * Clone the repo in that folder
     * https://github.com/etmitchell2022/regalia-loan-app-code.git
-* Refactor app.default.php in the IDE of your choice and rename it to app.php
+* Refactor app_local.php in the IDE of your choice and rename it to app.php
+* In config/app_local.php, change the host name on line 259 to `regalia-db`. This will allow you access the MySQL server.
+
 ## Composer
 * Download composer in whatever way applies to you in https://getcomposer.org/download/
 * Browse to the folder containing the project in a command window and run
  ```console 
 $ composer update
 ```
-* In config/app_local.php, change the host name on line 259 to `regalia-db`. This will allow you access the MySQL server.
 
 ## Quick Explanation over File Structure
 * config/*
