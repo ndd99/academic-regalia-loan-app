@@ -14,7 +14,7 @@
       * This is our dockerfile, which is read by the docker-compose.yml file when our web container is started. This dockerfile runs the commands nessecary to configure our apache server.
   * docker-compose.yml
     * This is the file that is ran when the container is started. It has instructions on how we want each of our containers built and what volumes will be mounted.
-    * 
+
 ## Clone Repository
 * Run ```git clone https://github.com/etmitchell2022/regalia-loan-app-code.git```
 * Then cd into the project folder.
