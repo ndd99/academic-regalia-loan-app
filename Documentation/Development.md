@@ -25,8 +25,8 @@
 * cd into ./docker
 * run `docker-compose up -d`
 * The initial build may take some time.
-* Once it is done, cd into the parent directory and then cd into ./html/
-* Once in ./html/ run `composer install`
+* Once it is done, cd into the root directory
+* Once in the root directory run `composer install`
 
 ## Access Application
 * You can access the application from `localhost:80`.
