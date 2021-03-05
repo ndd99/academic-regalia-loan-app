@@ -103,6 +103,7 @@ Log::config('error', [
 ```  
 ### Most Vulnerable Components:  
 * A listing with lots of notes can break the view item page.
-* The messaging system allows for the user to message their own account which should not happen and will be fixed in later iterations.
+* Users are able to reserve their own listed items which should not happen and will be fixed in the next iteration.
+* For the deployed site, there is not database connected so users cannot log in or sign up. This will be fixed soon.
 
 
