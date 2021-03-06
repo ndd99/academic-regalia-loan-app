@@ -10,7 +10,5 @@ Select the Dashboard tab in the nav bar and from there select My Listings option
 Select the Contact tab in the nav bar to see a form that can be filled out and sent to an admin. ![Contact](UserImages/userImg/contact.PNG)
 # Check Reservations
 Select the Dashboard tab in the nav bar and select the My Reservations option. From here you will see the status of your reservations.![Reservation](UserImages/userImg/myReservations.PNG) You can click on an of them to see more details on the item and reservation.
-# Creating a Message
-Select the Dashboard tab in the nav bar and then select view all messages. ![Messages](UserImages/userImg/Messages.png) From there click the new message button. ![NewMessage](UserImages/userImg/NewMessage.png) You can select the user you would like to message in the drop down, and then type the message in the field below. You can now view the message by clicking the sent messages tab below the messages header
 # Replying to a Message
-Select the Dashboard Tab in the nav bar and then select view all messages. From there you can select the message you wish to reply to by clicking the view option.![MessageReply](UserImages/userImg/MessageReply.png) From there you will be taken to a page that has the message sent to you as well as a text box to type your reply. 
+Select the Dashboard Tab in the nav bar and then select view all messages. From there you can select the message you wish to reply to by clicking the reply option. You can also filter the messages by unread and read to easily find your new messages. ![MessageReply](UserImages/messageIndex.jpg) You will then be taken to the view message page where you can read and respond the message.
