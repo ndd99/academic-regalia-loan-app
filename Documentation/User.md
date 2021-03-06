@@ -12,3 +12,4 @@ Select the Contact tab in the nav bar to see a form that can be filled out and s
 Select the Dashboard tab in the nav bar and select the My Reservations option. From here you will see the status of your reservations.![Reservation](UserImages/userImg/myReservations.PNG) You can click on an of them to see more details on the item and reservation.
 # Replying to a Message
 Select the Dashboard Tab in the nav bar and then select view all messages. From there you can select the message you wish to reply to by clicking the reply option. You can also filter the messages by unread and read to easily find your new messages. ![MessageReply](UserImages/messageIndex.jpg) You will then be taken to the view message page where you can read and respond the message.
+![MessageReply](UserImages/userImg/MessageReply.png)
