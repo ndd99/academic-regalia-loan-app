@@ -105,5 +105,6 @@ Log::config('error', [
 * A listing with lots of notes can break the view item page.
 * Users are able to reserve their own listed items which should not happen and will be fixed in the next iteration.
 * For the deployed site, there is not database connected so users cannot log in or sign up. This will be fixed soon.
+* Default images do not show up right now because the end point was changed for AWS when all references to products were changed to items.
 
 
