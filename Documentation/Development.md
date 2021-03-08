@@ -4,7 +4,7 @@
 * Docker : https://www.docker.com/products/docker-desktop
 
 
-## Quick Explanation over File Structure
+## Quick Explanation over Docker File Structure
 * docker/
   * initdb/
     * init.sql
@@ -14,8 +14,6 @@
       * This is our dockerfile, which is read by the docker-compose.yml file when our web container is started. This dockerfile runs the commands nessecary to configure our apache server.
   * docker-compose.yml
     * This is the file that is ran when the container is started. It has instructions on how we want each of our containers built and what volumes will be mounted.
-* html/
-  *  This is where all of our application files are stored, further explanation over application files further on in this document.
 
 ## Clone Repository
 * Run ```git clone https://github.com/etmitchell2022/regalia-loan-app-code.git```
@@ -25,8 +23,8 @@
 * cd into ./docker
 * run `docker-compose up -d`
 * The initial build may take some time.
-* Once it is done, cd into the parent directory and then cd into ./html/
-* Once in ./html/ run `composer install`
+* Once it is done, cd into the root directory
+* Once in the root directory run `composer install`
 
 ## Access Application
 * You can access the application from `localhost:80`.
