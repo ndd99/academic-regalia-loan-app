@@ -4,14 +4,7 @@
 What needs to be installed before starting:  
 
 #### Your local machine.  
-1.  Navigate to https://github.com/ndd99/academic-regalia-loan-app/blob/master/Documentation/Development.md  
-2.  Follow the documentation and replicate the development environment before trying to host.  
-3.  Once you reach the following page, you are ready to move on.  
-  * ![mainPage](DevImages/mainPage.PNG)  
-* This applcation will be hosted by Ball State through AWS.  
-* In order to host it, an Elastic Beanstalk environment will be configuerd through AWS.  
-  * Open the Elastic Beanstalk console using this preconfigured link: console.aws.amazon.com/elasticbeanstalk/home#/newApplication?applicationName=tutorials&environmentType=LoadBalanced  
-  * For Platform, select the platform and platform branch that match the language used by your application.  
+* Because this application must go through simplesamlphp, it will not be available to be deployed on a local machine, or anywhere aside from regalia.community.bsu.edu.
 
 
 
@@ -30,8 +23,16 @@ eb-cake zip ../cake-default.zip -r * .[^.]* -x "vendor/*"
   * On the environment overview page, choose Upload and deploy.  
   * Use the on-screen dialog box to upload the source bundle.  
   * Choose Deploy.
-  * When the deployment completes, you can choose the site URL to open your website in a new tab.  
-  * When the process completes, click the URL to open your CakePHP application in the browser  
+  * The following commands must be ran via an AWS ssh connection in order to set up Ball State's SSO using simplesamlphp
+    * In /var/www/html/webroot run 
+      * sudo ln -s /var/www/html/vendor/simplesamlphp/simplesamlphp/www simplesaml
+    * In /var/www/html/config/simplesaml run
+      * sudo cp acl.php authsources.php config.php /var/www/html/vendor/simplesamlphp/simplesamlphp/config cd metadata
+    * In /var/www/html/config/simplesaml/metadata run
+      * sudo cp adfs-idp-hosted.php adfs-sp-remote.php saml20-idp-hosted.php saml20-idp-remote.php saml20-sp-remote.php shib13-idp-hosted.php shib13-idp-remote.php shib13-sp-hosted.php shib13-sp-remote.php wsfed-idp-remote.php wsfed-sp-hosted.php /var/www/html/vendor/simplesamlphp/simplesamlphp/metadata
+
+
+
   
 ### Add a database to your environment  
 
@@ -59,7 +60,7 @@ return [
 ...
  ```
  * The database connection is configured further down in app.php. Find the following section and modify the default datasources configuration with the name of the driver that matches your database engine (Mysql, Sqlserver, or Postgres), and set the host, username, password and database variables to read the corresponding values from Elastic Beanstalk.   
-### To update your Elastik Beanstalk environment:
+### To update your Elastic Beanstalk environment:
  1. Create a new source bundle:
   ```
   ~/eb-cake$ zip ../cake-v2-rds.zip -r * .[^.]* -x "vendor/*"
@@ -102,9 +103,6 @@ Log::config('error', [
 ]);
 ```  
 ### Most Vulnerable Components:  
-* A listing with lots of notes can break the view item page.
-* Users are able to reserve their own listed items which should not happen and will be fixed in the next iteration.
-* For the deployed site, there is not database connected so users cannot log in or sign up. This will be fixed soon.
-* Default images do not show up right now because the end point was changed for AWS when all references to products were changed to items.
+ * Given the nature of the SSO integration it may be a weak point as it is not able to be tested and has only been recently implemented.
 
 
