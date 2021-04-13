@@ -7,7 +7,7 @@ Listing a new item can be done from the dashboard and on the My Listings page.![
 # Contact an Admin
 Select the Contact tab in the nav bar to view your options. There will be an email for any techical questions or issues, an email for questions about reservations or any regalia related question, and the last option will link the user to a page explaining how to use the site. ![Contact](UserImages/iteration5/contact.png)
 # Check Reservations
-Select the Dashboard tab in the nav bar and select the My Reservations option. From here you will see the status of your reservations.![Reservation](UserImages/iteration5/myReservations.PNG) You can click on an of them to see more details on the item and reservation.
+Select the Dashboard tab in the nav bar and select the My Reservations option. From here you will see the status of your reservations.![Reservation](UserImages/iteration5/myReservations.png) You can click on an of them to see more details on the item and reservation.
 # Replying to a Message
 Select the Dashboard Tab in the nav bar and then select view all messages. From there you can select the message you wish to reply to by clicking the reply option. You can also filter the messages by unread and read to easily find your new messages. ![MessageReply](UserImages/iteration5/messages.png) You will then be taken to the view message page where you can read and respond the message.
 ![MessageReply](UserImages/iteration5/reply.png)
