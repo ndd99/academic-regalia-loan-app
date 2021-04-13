@@ -193,5 +193,27 @@ $ composer update
 * On the leftmost pane should be a coding standard selector, click it and select PSR-12
 ![codeSnifferStandards](DevImages/codeSnifferStandard.png)
 
+# Cypress Testing
+* Required Technologies
+    * Cypress:
+        * https://www.cypress.io/
+    * VSCode or JS IDE:
+        * https://code.visualstudio.com/
+
+## Running the Tests
+* Open the Cypress Dashboard
+    * ![cypessDashboard](DevImages/CypressDashboard.png)
+* Navigate till the Integration folder is open within the project
+    * ![cypressTests](DevImages/CypressTests.png)
+* Click the run button
+
+## Editing Tests
+* Edit the `regaliaIntegrationTests.js` file and the browser that was opened by Cypress will automatically update with the changes, on each save
+
+# Important Notice
+* As the application runs with an SSO it, as far as our knowledge goes, it is impossible to run tests for the following reasons
+    * Mock sessions cannot be created, as they will conflict with the SSO and will requried to be overwritten
+    * Scripts can't be run as the SSO will reject them
+
 ## Credit
 * Format based off of https://github.com/hergin/BusShuttleMainRepository/blob/master/Manuals/NewDevelopmentManual.md by H. Ergin
